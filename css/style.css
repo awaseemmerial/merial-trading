@@ -66,7 +66,7 @@ header a:hover{
 
 /* SECTION */
 section{
-  padding: 10% 5% 20px 5%;
+  padding: 1% 5% 20px 5%;
 }
 
 /* HOME */
@@ -124,9 +124,30 @@ section{
   padding-bottom: 10px;
 }
 
+/* NOVA */ 
+.nova{
+  background-color: var(--bgColor-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nova .x{
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  padding-bottom: 10px;
+  box-flex-group: red;
+}
+.nova img{
+  max-width: 400px;
+  width: 80%;
+  margin-top: 2%;
+}
+
 /* SERVICE */ 
 .service{
-  background-color: var(--bgColor-2);
+  background-color: var(--bgColor-1);
   display: flex;
   flex-direction: column;
 }
@@ -160,7 +181,7 @@ section{
 
 /* CONTACT */ 
 .contact{
-  background-color: var(--bgColor-1);
+  background-color: var(--bgColor-2);
   display: flex;
   flex-direction: column;
 }
