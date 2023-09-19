@@ -133,7 +133,7 @@ section{
   justify-content: center;
   align-items: center;
 }
-.nova .x{
+.nova p{
   font-size: 1.2rem;
   letter-spacing: 1px;
   line-height: 2rem;
@@ -144,6 +144,9 @@ section{
   max-width: 400px;
   width: 80%;
   margin-top: 2%;
+}
+.nova a{
+  margin-top: 5%;
 }
 
 /* SERVICE */ 
